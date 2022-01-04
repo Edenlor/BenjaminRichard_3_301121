@@ -1,0 +1,215 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a {
+  text-decoration: none;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+  width: 100%;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 0 18px 0 18px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.heart_1,
+.heart_2,
+.heart_3,
+.heart_4 {
+  position: absolute;
+  right: 20px;
+  bottom: 30px;
+  line-height: 1;
+}
+
+#heart__1,
+#heart__2,
+#heart__3,
+#heart__4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header {
+  padding: 0 0 50px 0;
+}
+
+#operation,
+#restaurants {
+  padding: 50px 0 50px 0;
+}
+
+footer {
+  padding: 50px 0 20px 0;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("public/fonts/roboto/Roboto-Regular.ttf");
+}
+body {
+  font-family: "Roboto", arial, serif;
+}
+
+:root {
+  font-size: 14px;
+  /* 3 rem = 10 px */
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+#utensils {
+  font-size: 0.75em;
+}
+
+#hands {
+  font-size: 0.6em;
+}
+
+button {
+  display: block;
+  text-align: center;
+  border: none;
+  border-radius: 18px;
+  box-shadow: 0 5px 10px #e4e4e4;
+  padding: 7.5px 15px 7.5px 15px;
+  margin: 10px auto;
+}
+
+#operation li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 17px;
+  margin: 20px 0 0 0;
+  padding: 14px 0 10px 0;
+  box-shadow: 0 5px 10px #e4e4e4;
+  height: 55px;
+}
+
+#restaurants {
+  display: grid;
+  grid-template-rows: auto repeat(4, 200px);
+  grid-gap: 15px;
+}
+#restaurants figure {
+  height: 195px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 0 5px 10px #cecece;
+}
+#restaurants figure img {
+  object-fit: cover;
+  height: calc(100% - 65px);
+  border-radius: 15px 10px 0 0;
+}
+#restaurants figure figcaption {
+  height: 65px;
+  color: black;
+  position: relative;
+  padding: 10px 10px 5px 10px;
+}
+
+.discover {
+  text-align: center;
+  margin: 10px 0 10px 0;
+}
+
+form label {
+  display: flex;
+  justify-content: center;
+}
+form label #marker {
+  line-height: 22px;
+}
+form label input {
+  border: none;
+  background: none;
+  text-align: center;
+  width: 35%;
+}
+
+footer li #utensils {
+  padding-right: 8px;
+}
+footer li #hands {
+  padding-right: 6px;
+}
+
+/**
+@import "pages/work";
+@import "pages/about";
+@import "pages/project";
+*/
+
+/*# sourceMappingURL=style.css.map */

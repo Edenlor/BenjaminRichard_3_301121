@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("public/fonts/roboto/Roboto-Regular.ttf");
+}
+
+body {
+  font-family: "Roboto", arial, serif;
+}
+
+:root {
+  font-size: 14px; /* 3 rem = 10 px */
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+#utensils {
+  font-size: 0.75em;
+}
+
+#hands {
+  font-size: 0.60em;
+}

@@ -1,0 +1,43 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 0 18px 0 18px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.heart_1,
+.heart_2,
+.heart_3,
+.heart_4 {
+  position: absolute;
+  right: 20px;
+  bottom: 30px;
+  line-height: 1;
+}
+
+#heart__1,
+#heart__2,
+#heart__3,
+#heart__4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+.header {
+  padding: 0 0 50px 0;
+}
+
+#operation,
+#restaurants, {
+  padding: 50px 0 50px 0;
+}
+
+footer {
+  padding: 50px 0 20px 0
+}

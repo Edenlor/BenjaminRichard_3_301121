@@ -1,0 +1,17 @@
+form {
+  label {
+    display: flex;
+    justify-content: center;
+
+    #marker {
+      line-height: 22px;
+    }
+
+    input {
+      border: none;
+      background: none;
+      text-align: center;
+      width: 35%;
+    }
+  }
+}
